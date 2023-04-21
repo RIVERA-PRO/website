@@ -1,0 +1,72 @@
+.contain-about{
+    margin: auto;
+    width: 100%;
+    padding: 0px 13%;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 6rem;
+    height: 100vh;
+    place-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    background-image: url(../../../public/img/fondobody.png)!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contain-about img{
+    width: 80%;
+}
+
+.text-about{
+    width: 100%;
+
+}
+
+.img-about{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+
+}
+
+.text-about h2{
+    color: var(--celeste);
+    font-size: 30px;
+}
+.text-about p{
+    color: var(--blanco);
+    font-size: 14px;
+}
+.text-about span{
+    color: var(--celeste);
+}
+
+@media (max-width: 1024px){
+    
+    .contain-about{
+    padding-top: 70%;
+    }
+}
+
+@media (max-width: 600px){
+    
+    .contain-about{
+    padding-top: 90%;
+    }
+    .text-about {
+        color: var(--blanco);
+        font-size: 13px;
+        padding: 0px 10%;
+    }
+}
+
+
+@media (max-width: 500px){
+    
+    .contain-about{
+    padding-top: 200%;
+    }
+}

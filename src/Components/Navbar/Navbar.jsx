@@ -69,7 +69,6 @@ export default function Navbar() {
                 </div>
 
                 <div className="redes-sociales1">
-                    <Anchor to={`/`}><i className='fa fa-instagram'></i></Anchor>
                     <Anchor to={`/`}> <i className='fa fa-linkedin'></i></Anchor>
                     <Anchor to={`/`}> <i className='fa fa-github'></i></Anchor>
                 </div>

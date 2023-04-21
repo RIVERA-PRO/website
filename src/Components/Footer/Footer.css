@@ -4,7 +4,7 @@
     --bg-color: #0a1121;
     --darkIcon-color: #000;
     --morado: #d103ffb9;
-    --celeste: #18f0ffbc;
+    --celeste: #18f0ffdd;
     --second-color: #a1a1aa;
     --bg-contain-text: #1a1c37;
     --code: #18f0ff09
@@ -84,7 +84,37 @@
     font-size: 20px;
 }
 
+.footer-footer{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 26%;
+    width: 100%;
+}
+.footer-footer p{
+    color: var(--second-color);
+}
+.contain-footer hr{
+    width: 65%;
+    border: 1px solid var(--celeste);
+    margin-top: 20px;
+}
 
+.redes-socialesf{
+    display: flex;
+    gap: 1rem;
+    font-size: 16px;
+}
+.redes-socialesf i{
+
+    color: var(--second-color);
+}
+.redes-socialesf i:hover{
+
+    color: var(--celeste);
+}
 @media (max-width: 500px){
     .Footer-contain{
         display: grid;
@@ -96,5 +126,12 @@
         padding: 150px 0%;
         gap: 5rem;
        
+    }
+    .footer-footer{
+        flex-direction: column;
+    }
+    .footer-footer p{
+        padding: 0px 10%;
+        text-align: center;
     }
 }

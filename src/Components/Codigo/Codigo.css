@@ -142,7 +142,7 @@
 
 @media (max-width: 450px){
     .mi-codigo{
-        width: 19rem;
+        width: 20rem;
         height: 20rem;
         border-radius: 7px;
         background-color:  var(--code);

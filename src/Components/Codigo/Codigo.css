@@ -1,0 +1,152 @@
+.codigo{
+    width: 100%;
+    height: 200px;
+   display: flex;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+
+.mi-codigo{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 7px;
+    background-color:  var(--code);
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+
+.minimiza{
+    display: flex;
+    gap: 10px;
+}
+
+.minimiza span{
+    background-color: var(--second-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.codigo-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 36.8%;
+}
+.mi-codigo hr{
+    border: 1px solid var(--second-color);
+}
+
+.codigo-body {
+    padding-top: 20px;
+    margin-left: 3rem;
+}
+
+.indexjsx{
+    color:  var(--second-color);
+}
+
+.code{
+    color:  var(--second-color);
+}
+
+.azul{
+    color: var(--morado);
+}
+.gris{
+    color: var(--celeste);
+}
+.amarillo{
+    color:antiquewhite;
+}
+
+.objeto{
+    margin-left: 2rem;
+    padding-top: 20px;
+}
+
+.copy{
+    background-color: var(--second-color);
+    border: none;
+    border-radius: 1px;
+    padding: 1px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+.propiedades{
+    margin-left: 2rem;
+    padding-top: 10px;
+}
+.return{
+    margin-left: 2rem;
+    padding-top: 20px;
+}
+.funcion{
+    padding-top: 20px;
+}
+.llave{
+    margin-left: 2rem;
+}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+      -webkit-transform: translateY(-20px);
+      -moz-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      -o-transform: translateY(-20px);
+}
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .mi-codigo{
+    animation: moveUpDown 5s infinite;
+    -webkit-animation: moveUpDown 5s infinite;
+}
+  
+
+
+@media (max-width: 1024px){
+    
+}
+
+@media (max-width: 500px){
+    .mi-codigo{
+        width: 27rem;
+        height: 20rem;
+        border-radius: 7px;
+        background-color:  var(--code);
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .codigo-header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 20%;
+    }
+}
+
+@media (max-width: 450px){
+    .mi-codigo{
+        width: 19rem;
+        height: 20rem;
+        border-radius: 7px;
+        background-color:  var(--code);
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+}

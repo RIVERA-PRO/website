@@ -136,13 +136,16 @@
         display: flex;
         align-items: center;
         width: 100%;
-        gap: 20%;
+        gap: 30%;
+    }
+    .codigo-body {
+        margin-left: -4rem;
     }
 }
 
 @media (max-width: 450px){
     .mi-codigo{
-        width: 20rem;
+        width: 21.5rem;
         height: 20rem;
         border-radius: 7px;
         background-color:  var(--code);

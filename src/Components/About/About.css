@@ -32,9 +32,9 @@
 
 }
 
-.text-about h2{
+.title-h2{
     color: var(--celeste);
-    font-size: 30px;
+    font-size: 33px;
 }
 .text-about p{
     color: var(--blanco);
@@ -55,18 +55,26 @@
     
     .contain-about{
     padding-top: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 1rem;
+  
     }
     .text-about {
         color: var(--blanco);
         font-size: 13px;
         padding: 0px 10%;
+        text-align: center;
     }
+    .contain-about img{
+        width: 100%;
+    }
+    
 }
 
 
 @media (max-width: 500px){
     
     .contain-about{
-    padding-top: 200%;
+    padding-top: 110%;
     }
 }

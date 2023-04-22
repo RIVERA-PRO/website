@@ -32,12 +32,11 @@ padding: 100px 0px;
 .contain-home{
     margin: auto;
     width: 100%;
-    max-width: 1000px;
-    padding: .7em;
+    padding: 10% 13%;
     border-radius: 1em;
     display: grid;
     grid-auto-rows: max-content;
-    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 6rem;
     height: 100%;
     place-content: center;

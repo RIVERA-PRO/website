@@ -111,6 +111,7 @@ padding: 100px 0px;
     font-size: 20px;
     color: var(--celeste);
     cursor: pointer;
+
 }
 
 
@@ -129,6 +130,9 @@ padding: 100px 0px;
   
 
 @media (max-width: 1024px){
+    .btn-about{
+        display: none;
+    }
     .contain-home{
         margin: auto;
         width: 100%;
@@ -259,3 +263,6 @@ html::-webkit-scrollbar-thumb{
         transform: translateX(0);
     }
 }
+
+
+

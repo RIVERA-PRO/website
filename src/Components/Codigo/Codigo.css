@@ -125,7 +125,7 @@
 
 @media (max-width: 500px){
     .mi-codigo{
-        width: 27rem;
+        width: 22rem;
         height: 20rem;
         border-radius: 7px;
         background-color:  var(--code);
@@ -145,11 +145,17 @@
 
 @media (max-width: 450px){
     .mi-codigo{
-        width: 21.5rem;
+        width: 18rem;
         height: 20rem;
         border-radius: 7px;
         background-color:  var(--code);
         padding: 10px 10px;
         font-size: 14px;
+    }
+    .codigo-header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 27%;
     }
 }

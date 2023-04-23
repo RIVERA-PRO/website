@@ -13,6 +13,7 @@
     background-image: url(../../../public/img/fondobody.png)!important;
     background-repeat: no-repeat;
     background-attachment: fixed;
+   
 }
 
 .contain-about img{
@@ -54,7 +55,7 @@
 @media (max-width: 600px){
     
     .contain-about{
-    padding-top: 90%;
+    padding-top: 100%;
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     gap: 1rem;
   
@@ -75,6 +76,45 @@
 @media (max-width: 500px){
     
     .contain-about{
-    padding-top: 110%;
+    padding-top: 200%;
     }
 }
+
+.text-about {
+    animation: slideFromLeft1 1s ease-in-out forwards;
+    -webkit-animation: slideFromLeft1 1s ease-in-out forwards;
+}
+
+.img-about{
+    /*Definelaposicióninicialyladuracióndelaanimación*/opacity: 0;
+    animation: slideFromRight1 1s ease-in-out forwards;
+    -webkit-animation: slideFromRight1 1s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft1 {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromRight1 {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+

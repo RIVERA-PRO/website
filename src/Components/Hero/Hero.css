@@ -36,7 +36,7 @@ padding: 100px 0px;
     border-radius: 1em;
     display: grid;
     grid-auto-rows: max-content;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 6rem;
     height: 100%;
     place-content: center;
@@ -102,6 +102,31 @@ padding: 100px 0px;
     font-size: 40px;
     color:var(--celeste)
 }
+
+.btn-about{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: var(--celeste);
+    cursor: pointer;
+}
+
+
+
+.arrow-icon {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: var(--celeste);
+    cursor: pointer;
+}
+  
+
+  
 
 @media (max-width: 1024px){
     .contain-home{
@@ -199,3 +224,38 @@ html::-webkit-scrollbar-thumb{
      border-radius:20px ;
      cursor: pointer;
  }
+
+
+
+ .presentacion {
+    animation: slideFromLeft 1s ease-in-out forwards;
+    -webkit-animation: slideFromLeft 1s ease-in-out forwards;
+}
+
+.codigo {
+    /*Definelaposicióninicialyladuracióndelaanimación*/opacity: 0;
+    animation: slideFromRight 1s ease-in-out forwards;
+    -webkit-animation: slideFromRight 1s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromRight {
+    from {
+        opacity: 0;
+       
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

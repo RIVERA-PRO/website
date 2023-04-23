@@ -1,18 +1,12 @@
 import React, { useRef } from 'react';
 import './Hero.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faReact,
-    faHtml5,
-    faCss3,
-    faNodeJs,
-    faJs,
-    faBootstrap,
-
-} from '@fortawesome/free-brands-svg-icons';
-
+import { faReact, faHtml5, faCss3, faNodeJs, faJs, faBootstrap, } from '@fortawesome/free-brands-svg-icons';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons/faDatabase';
 import Codigo from '../Codigo/Codigo';
+
+
 export default function Hero() {
     const codeRef = useRef(null);
 
@@ -29,6 +23,10 @@ export default function Hero() {
             return sobreMi;
           }`;
         navigator.clipboard.writeText(textToCopy);
+    }
+    const handleScrollToAbout = () => {
+        const aboutSection = document.querySelector('.contain-about');
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
     }
     return (
 
@@ -83,6 +81,9 @@ export default function Hero() {
                     <div className='btns'>
                         <button className='btn-contact'>Contacto</button>
                         <button className='btn-cv'>Ver CV</button>
+                        <button className='btn-about' onClick={handleScrollToAbout}> <FontAwesomeIcon icon={faAngleDown} className="arrow-icon" />
+                            <FontAwesomeIcon icon={faAngleDown} className="arrow-icon" />
+                        </button>
                     </div>
                 </div>
                 <div className='codigo'>

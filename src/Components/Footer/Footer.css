@@ -9,6 +9,7 @@
     --bg-contain-text: #1a1c37;
     --code: #18f0ff09;
     --card: #12192c;
+    --blanco2: #fff;
   }
   .theme-dark{
     --text-color: #ffff;
@@ -20,6 +21,7 @@
     --blanco: #000;
     --code: #1a1c37;
     --card: #1a1c37;
+    --blanco2: #fff;
   }
   
   

@@ -79,8 +79,8 @@ export default function Hero() {
                     </div>
 
                     <div className='btns'>
-                        <button className='btn-contact'>Contacto</button>
-                        <button className='btn-cv'>Ver CV</button>
+                        <button className='btn-contact'><a href="https://wa.me/qr/AHQDYWM7EKATH1" target="_blank" rel="noopener noreferrer">Contacto</a></button>
+                        <button className='btn-cv'><a href="https://drive.google.com/file/d/1nmBvpTwghsVE9gEfRJfZykPGH56vj9FX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Deploy</a></button>
                         <button className='btn-about' onClick={handleScrollToAbout}> <FontAwesomeIcon icon={faAngleDown} className="arrow-icon" />
                             <FontAwesomeIcon icon={faAngleDown} className="arrow-icon" />
                         </button>

@@ -7,13 +7,8 @@ export default function About() {
             <div className="text-about">
                 <h2 className="title-h2">Acerca de mí</h2>
                 <p>
-                    Soy estudiante avanzado de la carrera de
-                    <span>"Ingeniería en Sistemas"</span> y desempeño mis
-                    funciones como
-                    <span> Desarrollador Web Full Stack</span> y en otras ramas
-                    de la informática. Tengo una gran motivación para avanzar en
-                    mi carrera profesional y me destaco por mi compromiso y
-                    responsabilidad.
+                    Soy estudiante de la carrera <span>Ingeniería en Sistemas</span> y desempeño mis funciones como <span>Full Stack MERN Developer </span> y en otras ramas de la informática.
+                    Tengo una gran motivación para avanzar en mi carrera profesional y me destaco por mi compromiso y responsabilidad.
                 </p>
             </div>
 

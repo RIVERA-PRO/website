@@ -48,10 +48,10 @@ export default function FooterC() {
 
             <div className='footer-footer'>
                 <div className="redes-socialesf">
-                    <Anchor to={`/`}><i className='fa fa-twitter'></i></Anchor>
-                    <Anchor to={`/`}><i className='fa fa-instagram'></i></Anchor>
-                    <Anchor to={`/`}> <i className='fa fa-linkedin'></i></Anchor>
-                    <Anchor to={`/`}> <i className='fa fa-github'></i></Anchor>
+
+                    <Anchor to={`https://www.instagram.com/juan_rivera_de_ellas/`}><i className='fa fa-instagram'></i></Anchor>
+                    <Anchor to={`https://www.linkedin.com/in/juan-rivera-9ba866215/`}> <i className='fa fa-linkedin'></i></Anchor>
+                    <Anchor to={`https://github.com/RIVERA-PRO`}> <i className='fa fa-github'></i></Anchor>
                 </div>
                 <p>Copyright © 2023 JR DEV | Reservados todos los derechos</p>
             </div>

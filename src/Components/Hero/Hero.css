@@ -77,6 +77,14 @@ padding: 100px 0px;
 .btn-cv:hover{
    background-color: var(--celeste);
 }
+.btn-cv a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+.btn-contact a{
+    text-decoration: none;
+    color: var(--blanco);
+}
 .btns{
     display: flex;
     gap: 2rem;

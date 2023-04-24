@@ -17,7 +17,7 @@
 
 .card-projects{
     background-color: var( --card);
-    width: 18rem;
+    width: 16rem;
     min-height: 20rem;
     border-radius: 14px;
     box-shadow: 0 2px 2px #1a1e25;
@@ -44,12 +44,13 @@
   align-self: center;
 }
 .card-text p{
-  color: var(--blanco);
-  font-size: 13px;
+  color: var(--blanco2);
+  font-size: 12px;
   padding: 10px 5%;
+  height: 3rem;
 }
 .card-text h2{
-  color: var(--blanco);
+  color: var(--blanco2);
   font-size: 17px;
   padding-top: 10px;
 }
@@ -70,10 +71,10 @@
   border: none;
     width: 100px;
     background: linear-gradient(90deg, var(--morado)0%,var(--celeste) 120%);
-    padding: 10px 20px;
+    padding: 7px 17px;
     border-radius: 10px;
     font-weight: 600;
-    color: var(--blanco);
+    color: var(--blanco2);
     cursor: pointer;
 }
 .btn-card-git{
@@ -81,10 +82,10 @@
   border: 2px solid  var(--celeste);
   width: 100px;
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 7px 17px;
   border-radius: 10px;
   font-weight: 600;
-  color: var(--blanco);
+  color: var(--blanco2);
   cursor: pointer;
 }
 .btn-card-git:hover{

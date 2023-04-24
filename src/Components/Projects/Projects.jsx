@@ -16,7 +16,7 @@ export default function Projects() {
                             <p>{project.lengujes}</p>
                             <div className='btns-card'>
                                 <a href={project.link} className='btn-card-dep' target="_blank" rel="noopener noreferrer">Deploy</a>
-                                <a href={project.link} className='btn-card-git' target="_blank" rel="noopener noreferrer">Github</a>
+                                <a href={project.git} className='btn-card-git' target="_blank" rel="noopener noreferrer">Github</a>
                             </div>
                         </div>
                     </div>

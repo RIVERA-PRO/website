@@ -51,9 +51,9 @@ export default function Navbar() {
                             <Anchor to={`/`} >Docs</Anchor>
                         </div>
                         <div className="redes-sociales">
-                            <Anchor to={`/`}><i className='fa fa-instagram'></i></Anchor>
-                            <Anchor to={`/`}> <i className='fa fa-linkedin'></i></Anchor>
-                            <Anchor to={`/`}> <i className='fa fa-github'></i></Anchor>
+                            <Anchor to={`https://www.instagram.com/juan_rivera_de_ellas/`}><i className='fa fa-instagram'></i></Anchor>
+                            <Anchor to={`https://www.linkedin.com/in/juan-rivera-9ba866215/`}> <i className='fa fa-linkedin'></i></Anchor>
+                            <Anchor to={`https://github.com/RIVERA-PRO`}> <i className='fa fa-github'></i></Anchor>
                         </div>
 
                     </div>
@@ -69,8 +69,8 @@ export default function Navbar() {
                 </div>
 
                 <div className="redes-sociales1">
-                    <Anchor to={`/`}> <i className='fa fa-linkedin'></i></Anchor>
-                    <Anchor to={`/`}> <i className='fa fa-github'></i></Anchor>
+                    <Anchor to={`https://www.linkedin.com/in/juan-rivera-9ba866215/`}> <i className='fa fa-linkedin'></i></Anchor>
+                    <Anchor to={`https://github.com/RIVERA-PRO`}> <i className='fa fa-github'></i></Anchor>
                 </div>
 
 

@@ -1,4 +1,20 @@
 const projects = [
+    {
+        title: "Fitness Gym",
+        description: "",
+        lengujes: "HTML - CSS - JAVASCRIPT - React",
+        img: "https://i.postimg.cc/m2G8905n/fitness-gym.png",
+        link: "https://bejewelled-axolotl-a610ef.netlify.app/",
+        git: "https://github.com/RIVERA-PRO/gym-app"
+    },
+    {
+        title: "My Music",
+        description: "",
+        lengujes: "HTML - CSS - JAVASCRIPT - React",
+        img: "https://i.postimg.cc/ZYyjQTNn/my-music.png",
+        link: "https://moonlit-madeleine-d33347.netlify.app/",
+        git: "https://github.com/RIVERA-PRO/music-project"
+    },
 
     {
         title: "Project Hacker",
